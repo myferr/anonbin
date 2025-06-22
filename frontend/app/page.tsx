@@ -53,6 +53,9 @@ export default function HomePage() {
             Terms of Service
           </Link>
         </div>
+        <h1 className="text-lg text-muted-foreground/50 mb-4 mt-6 pointer-events-none">
+          Welcome to anonbin!
+        </h1>
         <h1 className="text-3xl">
           <pre>
             {`
@@ -69,7 +72,7 @@ export default function HomePage() {
         </h1>
         <p>An anonymous pastebin {":3"}</p>
         <h1 className="text-lg text-muted-foreground/50 mb-4 mt-6 pointer-events-none">
-          $ cat ~/pastes
+          $ ls ~/pastes
         </h1>
         {loading ? (
           <p>Loading...</p>
@@ -90,7 +93,7 @@ export default function HomePage() {
         )}
 
         <h1 className="text-lg text-muted-foreground/50 mb-4 mt-6 pointer-events-none">
-          $ echo ~/uploadAPaste.md
+          $ cat ~/uploadAPaste.md
         </h1>
         <p>
           Go to{" "}

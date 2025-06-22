@@ -27,7 +27,7 @@ export default function UploadPage() {
 
   return (
     <main className="p-6 min-h-screen">
-      <h1 className="text-xl mb-4">$ echo "paste" &gt; /dev/null</h1>
+      <h1 className="text-xl mb-4">$ echo "paste" &gt; ~/pastes</h1>
       <Textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}
