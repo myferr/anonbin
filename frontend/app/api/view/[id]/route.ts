@@ -1,7 +1,5 @@
-import { NextApiRequest } from "next";
-
 export async function GET(
-  req: NextApiRequest,
+  _req: Request,
   { params }: { params: { id: string } }
 ) {
   const tunnel = process.env.CF_TUNNEL_URL;
@@ -9,6 +7,7 @@ export async function GET(
 
   const res = await fetch(`${tunnel}/view/${id}`);
   const data = await res.json();
+
   return new Response(JSON.stringify(data), {
     status: res.status,
     headers: {
