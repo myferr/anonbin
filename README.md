@@ -1,3 +1,8 @@
+> [!CAUTION]
+> # THIS PROJECT IS NO LONGER MAINTAINED NOR FUNCTIONAL
+> On September 9th, 2025 the `anonbin` project was shut down and is now unusable.
+> This choice was made due to lack of usage and server resources.
+
 <h1 align="center">anonbin</h1>
 
 <p align="center">A simple, anonymous pastebin with no accounts, no guarantees.</p>
